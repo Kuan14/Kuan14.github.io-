@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img id="image" src="https://fakeimg.pl/150x130"/>
+   <div>
+        <button onclick="showImage()">顯示圖片</button>
+        <button onclick="hideImage()">隱藏圖片</button>
+    </div>
+    <script>
+        function showImage() {
+            document.getElementById('image').style.display = 'block';
+        }
+        function hideImage() {
+            document.getElementById('image').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
